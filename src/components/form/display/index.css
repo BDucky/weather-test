@@ -1,0 +1,12 @@
+.display-container .weather-img-container {
+  width: 100%;
+}
+.display-container .weather-img-container img {
+  width: 60%;
+}
+.display-container .weather-info {
+  display: flex;
+}
+.display-container .error {
+  margin-top: 20px;
+}
