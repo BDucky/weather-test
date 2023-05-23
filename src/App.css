@@ -1,10 +1,24 @@
 .App {
   text-align: center;
+  height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input:focus {
+  outline: none;
+}
+
+::placeholder {
+  font-size: larger;
+  font-weight: bold;
+}
+
+body {
+  background-color: rgb(21, 3, 85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
 }
 
 @media (prefers-reduced-motion: no-preference) {
